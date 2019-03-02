@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Library_Management_System</string>
+    <string-array name="Faculty_List">
+        <item>Computer Science And Engineering</item>
+        <item>Petroleum And Mining Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Electrical And Electronic Engineering</item>
+        <item>Industrial And Production Engineering</item>
+        <item>Biomedical Engineering</item>
+        <item>Textile Engineering</item>
+    </string-array>
+</resources>
