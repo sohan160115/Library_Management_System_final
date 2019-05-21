@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Faculty_List">
+
+    <android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+    >
+
+</android.support.v7.widget.Toolbar>
+
+
     
     <ListView
         android:listSelector="#27e233"
-        android:dividerHeight="2dp"
+        android:dividerHeight="0.5dp"
         android:divider="#ff22"
         android:id="@+id/Listviewid"
+        android:paddingTop="2dip"
+        android:paddingBottom="3dip"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+
+        >
 
     </ListView>
 

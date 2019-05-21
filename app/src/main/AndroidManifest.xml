@@ -19,6 +19,14 @@
         <activity android:name=".Faculty_List" />
         <activity android:name=".CSEBOOK" />
         <activity android:name=".CSE_BOOK" />
+        <activity android:name=".PME_BOOK" />
+        <activity android:name=".ChE_BOOK" />
+        <activity android:name=".EEE_BOOK" />
+        <activity android:name=".IPE_BOOK" />
+        <activity android:name=".BME_BOOK" />
+        <activity android:name=".TE_BOOK" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
     </application>
 
 </manifest>
